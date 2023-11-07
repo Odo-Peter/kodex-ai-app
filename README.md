@@ -2,7 +2,31 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, git clone this repository in your local machine and run the development server,:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+### Fixing Expected Errors
+
+- This project was built with some softwarer devlopment kit, such as `@clerk` for user authentication, `@openai` for chat completion, code generation and image generation, `replicate` for the music and video generation,`planetScale` for the SQL database, and lastly, `stripe` for the payment gateway for premium users, therefore, ensure to visit their websites and generate the necessary API_KEYS which you can use to forge ahead in runnning this project on your local machine.
+
+- You can access these required websites via the links below:
+
+  - [https://clerk.com/](clerk)
+  - [https://platform.openai.com/](openai)
+  - [https://replicate.com/](replicate-ai)
+  - [https://planetscale.com/](planetscale)
+  - [https://stripe.com/](stripe)
+
+- Ensure to place your generated keys in the `.env` file in the root folder of your project, after doing this, you can re-run the development server using your favourite package managers.
 
 ```bash
 npm run dev
@@ -16,7 +40,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `app` folder to suit your desires and needs. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
