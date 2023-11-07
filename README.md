@@ -20,11 +20,11 @@ bun dev
 
 - You can access these required websites via the links below:
 
-  - [https://clerk.com/](clerk)
-  - [https://platform.openai.com/](openai)
-  - [https://replicate.com/](replicate-ai)
-  - [https://planetscale.com/](planetscale)
-  - [https://stripe.com/](stripe)
+  - [clerk](https://clerk.com/)
+  - [openAI](https://platform.openai.com/)
+  - [replicateAI](https://replicate.com/)
+  - [planetScale](https://planetscale.com/)
+  - [stripe](https://stripe.com/)
 
 - Ensure to place your generated keys in the `.env` file in the root folder of your project, after doing this, you can re-run the development server using your favourite package managers.
 
